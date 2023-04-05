@@ -30,7 +30,7 @@ if __name__ == "__main__":
         task_dict = {}
         task_dict["task"] = task["title"]
         task_dict["completed"] = task["completed"]
-        task_dict["username"] = employee_name
+        task_dict["username"] = user_info["username"]
         user_tasks.append(task_dict)
 
     user_dict = {}
