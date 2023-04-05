@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Gather data from an API"""
 
-from sys import argv
 import requests
+from sys import argv
 
 
 api_url = "https://jsonplaceholder.typicode.com"
